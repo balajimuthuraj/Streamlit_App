@@ -1,0 +1,18 @@
+# Core Streamlit dependencies
+streamlit
+
+# Database dependencies (Uncomment based on your usage)
+pymysql               # For MySQL
+snowflake-connector-python  # For Snowflake
+
+# GitHub Integration
+PyGithub
+
+# File Handling
+pandas
+openpyxl  # For working with Excel files
+
+# Miscellaneous
+requests
+python-dotenv  # For environment variables
+load_dotenv
