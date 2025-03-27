@@ -46,4 +46,8 @@ else:
                 except Exception as e:
                     st.error(f" Error loading project: {e}") #testing purpose
 
+<<<<<<< HEAD
 ######
+=======
+
+>>>>>>> origin/main
