@@ -78,11 +78,11 @@ if conn:
         st.plotly_chart(fig2)
 
         # ---- Pie Chart: Percentage of Total Water Consumption by Area ----
-        st.subheader("🍩 Total Water Consumption by Area")
-        df_grouped = filtered_df.groupby("area_code")["monthly_consumption"].sum().reset_index()
-        fig3 = px.pie(df_grouped, names="area_code", values="monthly_consumption",
-                      title="Percentage of Total Water Consumption by Area")
-        st.plotly_chart(fig3)
+        #st.subheader("🍩 Total Water Consumption by Area")
+        #df_grouped = filtered_df.groupby("area_code")["monthly_consumption"].sum().reset_index()
+        #fig3 = px.pie(df_grouped, names="area_code", values="monthly_consumption",
+        #              title="Percentage of Total Water Consumption by Area")
+        #st.plotly_chart(fig3)
 
         # ---- Box Plot: Distribution of Monthly Water Consumption ----
         st.subheader("📦 Monthly Water Consumption Distribution")
