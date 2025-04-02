@@ -85,16 +85,16 @@ if conn:
         #st.plotly_chart(fig3)
 
         # ---- Box Plot: Distribution of Monthly Water Consumption ----
-        st.subheader("📦 Monthly Water Consumption Distribution")
-        fig4 = px.box(filtered_df, x="area_code", y="monthly_consumption", color="area_code",
-                      title="Distribution of Monthly Water Consumption")
-        st.plotly_chart(fig4)
+        #st.subheader("📦 Monthly Water Consumption Distribution")
+        #fig4 = px.box(filtered_df, x="area_code", y="monthly_consumption", color="area_code",
+        #              title="Distribution of Monthly Water Consumption")
+        #st.plotly_chart(fig4)
 
         # ---- Histogram: Leakage Distribution ----
-        st.subheader("📊 Leakage Distribution")
-        fig5 = px.histogram(filtered_df, x="leakage", nbins=10, color="area_code",
-                            title="Leakage Distribution by Area", barmode="overlay")
-        st.plotly_chart(fig5)
+        #st.subheader("📊 Leakage Distribution")
+        #fig5 = px.histogram(filtered_df, x="leakage", nbins=10, color="area_code",
+        #                    title="Leakage Distribution by Area", barmode="overlay")
+        #st.plotly_chart(fig5)
 
     # Close Connection
     conn.close()
